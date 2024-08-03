@@ -9,7 +9,7 @@ jobs:
     name: Build hexlet-ci-app on Ubuntu
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@4
+      - uses: actions/checkout@4.1.7
       - uses: actions/setup-node@v4.0.3
       - name: Start serup
         run: make setup
